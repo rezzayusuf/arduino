@@ -7,7 +7,7 @@
    $suhu=$_POST["suhu"];
 	$distance=$_POST["distance"];
 
-	$query = "INSERT INTO sensor (id, lpg, suhu, distance) 
+	$query = "INSERT INTO sensor (id, lpg, suhu_udara, distance) 
 		VALUES ('','".$lpg."','".$suhu."','".$distance."')"; 
    	
    mysql_query($query,$link);
